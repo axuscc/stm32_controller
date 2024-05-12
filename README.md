@@ -16,6 +16,10 @@ We made the development/prototyping using a Nucleo F302R8 board + a custom `hat`
 
 The `hat` detailled project can be found in `prototype` folder.
 
+![hat](assets/proto.png)
+
+![hat](assets/proto_2.png)
+
 ## Project:
 
 The purpose of this project is to design and prepare files for production for the final controller board. The final board will be a `merge` between a `Nucleo 64` board (F302R8) and the prototype `hat` with following requirements.
