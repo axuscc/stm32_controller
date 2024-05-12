@@ -1,0 +1,12 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP Arduino_nano
+D MCU
+$ENDCMP
+#
+$CMP HK115F-DC5V-SG
+D 5VDC relay
+F https://datasheet.lcsc.com/lcsc/1912251710_Ningbo-Keke-New-Era-Appliance-HK115F-DC5V-SG_C125718.pdf
+$ENDCMP
+#
+#End Doc Library
