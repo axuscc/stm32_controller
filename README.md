@@ -41,6 +41,8 @@ The screen will be connected trough the SUB-D9 Plug.
 
 - The project should be continued under Kicad and deliver as Kicad project + BOM + Gerber for PCB production & SMT assembly (JLCPCB).
 
+- button + 1 switch should be added to the design, their locations and schema have been defined, please double check resistors values.
+
 ## Notes:
 
 - Nucleo-F302R8 Schema can be found [here](assets/Nucleo_xxxxRx-revC05_Schematic.pdf)
