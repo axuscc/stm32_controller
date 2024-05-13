@@ -1659,7 +1659,7 @@
 			(uuid "14e1d129-aaaf-432a-b36b-bc0bf43d2768")
 		)
 		(instances
-			(project "plc_stm32"
+			(project "controller"
 				(path "/1f880140-005b-4ffd-9c1d-0f8284b060bf/85402ad7-734e-48cb-8623-d4eda32bfcf9"
 					(reference "U4")
 					(unit 1)
@@ -1777,7 +1777,7 @@
 			(uuid "80e34cae-e27b-4224-81d3-930d0b70d56b")
 		)
 		(instances
-			(project "plc_stm32"
+			(project "controller"
 				(path "/1f880140-005b-4ffd-9c1d-0f8284b060bf/85402ad7-734e-48cb-8623-d4eda32bfcf9"
 					(reference "J2")
 					(unit 1)
