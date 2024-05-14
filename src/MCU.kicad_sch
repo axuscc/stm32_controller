@@ -1458,6 +1458,60 @@
 		)
 		(uuid "552fcdc2-84d9-4286-9a92-0ebca8fb1cd2")
 	)
+	(text "Probe + Bootloader"
+		(exclude_from_sim no)
+		(at 131.826 39.116 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "5617b1ff-fa25-4ab9-a70c-8fc331521da2")
+	)
+	(global_label "USART2_TX"
+		(shape input)
+		(at 106.68 36.83 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2e096a8d-840f-4d47-b019-8dc211a7f460")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 119.8856 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "USART2_RX"
+		(shape output)
+		(at 106.68 40.64 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4b519ab6-eb4a-477d-81d4-7d116bcbdc38")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 120.188 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(symbol
 		(lib_id "MCU_ST_STM32F1:STM32F103CBTx")
 		(at 62.23 64.77 0)
