@@ -10,7 +10,7 @@ This controller embed 2 main features:
 - One modbus server for handle request from `PLC`.
 - One Modbus Client that will send requests to `Encoder` and `Vfd`.
 
-each feature use  its own USART port (USART1/USART3).
+each feature use  its own USART port (USART2/USART3).
 
 We made the development/prototyping using a Nucleo F302R8 board + a custom `hat` to embed signal convertion from USART to RS485.
 
@@ -48,4 +48,10 @@ The screen will be connected trough the SUB-D9 Plug.
 - Nucleo-F302R8 Schema can be found [here](assets/Nucleo_xxxxRx-revC05_Schematic.pdf)
 - `hat` schema can be found [here](prototype/Schematics_Nuclueo_F302RB_modbus_extension_v0-1.pdf)
 - Form factor is already defined and design, it should not be changed as this board come replace an old design on some machines running at the customer factory. All connectors should be keep at their actual locations.
+
+## Additional notes:
+- As we chamge MCU from STM32F302R8 to STM32F302RBT6 there is some point to adjust:
+    - USART1 & USART2 features should be switched (USART1 connected to the probe and USART2 to RS485 Master)
+    - SPI3_SCK share `SWO` pin so we cannot use SPI3 anymore, we have to switch to SPI1 instead.
+
 
